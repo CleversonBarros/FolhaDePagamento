@@ -13,6 +13,7 @@ public class Empregado {
     public Empregado(String nomecompleto, String endereco, String cpf) {
         this.nomecompleto = nomecompleto;
         this.endereco = endereco;
+        this.cpf = cpf;
     }
 
     public String getNomecompleto() {
